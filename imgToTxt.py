@@ -11,4 +11,6 @@ headers= {
 
 response = requests.request("GET", url, headers=headers, data = payload)
 
-print(response.text)
+box = response.json()
+
+print(box["all_text"])
