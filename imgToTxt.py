@@ -6,7 +6,7 @@ url = f"https://api.apilayer.com/image_to_text/url?url={img}"
 
 payload = {}
 headers= {
-  "apikey": "API-Key"
+  "apikey": "GM0YJz7bD3XGfvK7r0RfQRqf0JMsChnA"
 }
 
 response = requests.request("GET", url, headers=headers, data = payload)
